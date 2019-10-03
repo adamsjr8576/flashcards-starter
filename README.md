@@ -9,7 +9,7 @@
  
 ## GIF
 
-![Alt Text](./gif/giphy.gif)
+![Alt Text](./gif/beginningofapp.gif)
 
 
 
