@@ -21,6 +21,6 @@
 
 ---
 
-##Install/Setup Instructions
+## Install/Setup Instructions
 
  - Start by cloning the Repo(Fork if you want to, but not necessary to play game) into your terminal. Move into the flashcards directly. Once in the flashcards directory run `node index.js` in the terminal and the game will initiate. You can use the arrow keys to select the answer you want and then hit enter to submit answer and then hit enter to continue on to next question. If you score less than 90% the deck will start over and continue to do so until you score greater than 90%. Once you do score greater than 90% then the game will restart with a new deck containing questions related to CSS. It will continue until you get a score greater than 90%. Once done the game is over and you can use control+c to exit back to terminal.
