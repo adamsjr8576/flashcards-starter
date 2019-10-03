@@ -150,6 +150,154 @@ const prototypeData = [{
   "correctAnswer": "prototype method"
 }]
 
+const prototypeData2 = [{
+  "id": 1,
+  "question": "What allows you to style a page using property/value pairs",
+  "answers": ["CSS", "HMTL", "Javascript"],
+  "correctAnswer": "CSS"
+}, {
+  "id": 2,
+  "question": "What is used to target something on the DOM in order to style it?",
+  "answers": ["targeter", "selector", "querySelector"],
+  "correctAnswer": "selector"
+}, {
+  "id": 3,
+  "question": "What CSS property would I use to change the background color of an element?",
+  "answers": ["color-background", "change-background", "background-color"],
+  "correctAnswer": "background-color"
+}, {
+  "id": 4,
+  "question": "Which is an example of a CSS property?",
+  "answers": ["document.querySelector()", "color", "blue"],
+  "correctAnswer": "color"
+}, {
+  "id": 5,
+  "question": "Which is an example of a CSS value?",
+  "answers": ["border", "background", "1px"],
+  "correctAnswer": "1px"
+}, {
+  "id": 6,
+  "question": "Which example would create a border that is blue, 1px and solid",
+  "answers": ["border: 1px solid blue", "border: blue solid 1px", "border: blue 1px solid"],
+  "correctAnswer": "border: 1px solid blue"
+}, {
+  "id": 7,
+  "question": "what is a CSS layout tool that uses columns and rows?",
+  "answers": ["float", "grid", "flex"],
+  "correctAnswer": "grid"
+}, {
+  "id": 8,
+  "question": "what value of the property position removes the element from the normal flow and pulls it forward to be positioned on page?",
+  "answers": ["relative", "absolute", "fixed"],
+  "correctAnswer": "absolute"
+}, {
+  "id": 9,
+  "question": "What is the correct syntax for changes the color of text to blue?",
+  "answers": ["changeColor('blue')", "color: blue", "changeColor: blue"],
+  "correctAnswer": "color: blue"
+}, {
+  "id": 10,
+  "question": "What do you call a property value pair within a CSS rule?",
+  "answers": ["declaration", "property: value", "assignment"],
+  "correctAnswer": "declaration"
+}, {
+  "id": 11,
+  "question": "In regards to the box model - what comes just outside of padding?",
+  "answers": ["content", "margin", "border"],
+  "correctAnswer": "border"
+}, {
+  "id": 12,
+  "question": "Block elements as a default take up the entire width of the page",
+  "answers": ["true", "false"],
+  "correctAnswer": "true"
+}, {
+  "id": 13,
+  "question": "In regards to the box model - what comes just outside of content?",
+  "answers": ["padding", "margin", "border"],
+  "correctAnswer": "padding"
+}, {
+  "id": 14,
+  "question": "<p> defaults as an inline element",
+  "answers": ["true", "false"],
+  "correctAnswer": "false"
+}, {
+  "id": 15,
+  "question": "What does the browser use to determine which CSS values are relevant and should or shouldn't be used?",
+  "answers": ["selector", "specificity", "relevance"],
+  "correctAnswer": "specificity"
+}, {
+  "id": 16,
+  "question": "Which example would give an element a 10px margin on the top and bottom?",
+  "answers": ["margin: 10px 0", "margin-top-bottom: 10px", "margin: 0 10px 0 10px"],
+  "correctAnswer": "margin: 10px 0"
+}, {
+  "id": 17,
+  "question": "What do you use to configure the actual appearance of an animation?",
+  "answers": ["keyFrames", "@keyframes", "@key-frames"],
+  "correctAnswer": "@keyframes"
+}, {
+  "id": 18,
+  "question": "What do you use to initiate a media query?",
+  "answers": ["@media", "@query", "@mediaquery"],
+  "correctAnswer": "@media"
+}, {
+  "id": 19,
+  "question": "Which value of the property display works primarily with two axis?",
+  "answers": ["float", "grid", "flex"],
+  "correctAnswer": "flex"
+}, {
+  "id": 20,
+  "question": "font-size: 125%; will increase the size of the selected text",
+  "answers": ["true", "false"],
+  "correctAnswer": "true"
+}, {
+  "id": 21,
+  "question": "What would be a good way to center an element using margin?",
+  "answers": ["margin: 0 auto 0 0;", "margin: auto", "center: margin"],
+  "correctAnswer": "margin: auto"
+}, {
+  "id": 22,
+  "question": "What attribute on HTML elements should primarily be used for CSS?",
+  "answers": ["id", "class", "data-id"],
+  "correctAnswer": "class"
+}, {
+  "id": 23,
+  "question": "which will properly make the text of a paragraph red?",
+  "answers": [".p {textcolor: red;}", "p {color: red;}", "par {color: red;}"],
+  "correctAnswer": "p {color: red;}"
+}, {
+  "id": 24,
+  "question": "What changes the size of something based on the properties initial value?",
+  "answers": ["rem", "px", "%"],
+  "correctAnswer": "rem"
+}, {
+  "id": 25,
+  "question": "You can use the dev tools to edit the CSS and see the results in real time.",
+  "answers": ["true", "false"],
+  "correctAnswer": "true"
+}, {
+  "id": 26,
+  "question": "what selector is used to target the whole page?",
+  "answers": ["#", "~", "*"],
+  "correctAnswer": "*"
+}, {
+  "id": 27,
+  "question": "What does CSS stand for?",
+  "answers": ["Complete Sheet Styling", "Capture Selector Styles", "Cascading Style Sheets"],
+  "correctAnswer": "Cascading Style Sheets"
+}, {
+  "id": 28,
+  "question": "what CSS property/value pair should be used to center text?",
+  "answers": ["text: center", "text-align: center", "text-position: center"],
+  "correctAnswer": "text-align: center"
+}, {
+  "id": 29,
+  "question": "border-radius: 10px; would round the corners of a square box by 10px.",
+  "answers": ["true", "false"],
+  "correctAnswer": "true"
+}]
+
 module.exports = {
-  prototypeData 
+  prototypeData,
+  prototypeData2
 }
