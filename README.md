@@ -1,79 +1,15 @@
-# FlashCards Starter Kit
+# Mod 2 - Project 1: Flashcards
 
-## Fork This Repo
+## Abstract
 
-On the top right corner of this page, click the **Fork** button.
-
-## Setup
-
-Clone down the forked repo (from your GitHub). Since you don't want to name your project "flashcards-starter", you can use an optional argument when you run `git clone` (you replace the `[...]` with the terminal command arguments):
-
-```bash
-git clone [remote-address] [what you want to name the repo]
-```
-
-Once you have cloned the repo, change into the directory and install the library dependencies. Run:
-
-```bash
-npm install
-```
-
-To verify that it is setup correctly, run `npm test` in your terminal. You should have 5 pending tests in your `Card` test file that show up.
-
-Running `node index.js` from the root of your project should result in the following message being displayed in your terminal: 
-
-```bash
-Node server running on port 3000
-```
-
-*Note that you will not need to you run your server until you are instantiating your `Game` class in Iteration 3. Prior to that, you should be using TDD to drive your code. You should check the functionality of your application by running your tests via `npm test`.*
-
-
-## Where to Add Your Code
-
-### JavaScript
-
-**Create all of your feature code files in the `src` directory.**
-
-We will be using the `module.exports` and `require` syntax to share code across files.
-
-## How to View Your Code in Action
-
-Once you are working through Iteration 3, you will want to start your server to test your functionality.
-In the terminal, run:
-
-```bash
-node index.js
-```
-
-When the game is functioning appropriately, you will be prompted for each question, have the opportunity to select an answer, and will be given feedback. You will be able to play through the entire deck of cards:
-
-![flash cards example gif](https://media.giphy.com/media/1zkb1q58eTiTH6D7wc/giphy.gif)
-
+ - The overall goal of this project was to add code to a partially constructed OOP application with the goal of making it fully functional. The Application is meant to simulate Flashcards via questions/vocab paired with possible multiple choice answers. The program is run and used wihtin Node via the terminal. The user can select an anser and will be told whether they are right or wrong, and the user only gets one guess per question before moving on to the next. The main goal of this project was to begin writing code using TDD as the driving factor in that implementation, as well as refining our skills and ability to efficiently and accurately implement ES6 classes. We wrote comprehensive testing suites for each class prior to constructing the ES6 classes with the learning goal of gaining confidence in how and when to write a test, as well as the proper syntax and implementation of TDD using Mocha and Chai. A side goal of this project was to begin experimenting and using ES6 syntax. 
+  A major struggle for me throughout this project has been moving away from writing mainly DOM manipulation JS as well as having an app that runs in the window using HTML and CSS. Having that visual aid coupled with Dev tools to help problem solve has been super helpful and not having that has made trouble shooting harder for me. The testing has helped to fill in that void and is a strong tool in implementing code, but if I get an error on a test and don't know how to fix it then I can not rely on the dev tools to really dig in and figure it out. The dev tools have also been a huge help in really figuring out exactly what is going on and how the code is being executed, and not having that coupled with having a util.js file that I don't fully understand has been difficult. So, relying on the tests more and using tools like console.log has been really helpful in filling that void. 
+  
 ---
+ 
+## GIF
 
-## Test Files Organization
+![Alt Text](/gif/beginningofapp.gif)
 
-Similar to feature code, your test code needs to be put in a specific place for it to run successfully.
 
-**Put all of your test files in the `test` directory.** As a convention, all test filenames should end with `-test.js`. For instance: `Round-test.js`.
 
-## Running Your Tests
-
-Run your test suite using the command:
-
-```bash
-npm test
-```
-
-The test results will output to the terminal.
-
----
-
-## Linting Your Code
-
-Run the command in your terminal `npm run lint` to run the linter on your JavaScript code. There will be errors and warnings right from the start in this starter kit - the linter is still running successfully.
-
-Your linter will look at the JavaScript files you have within the `src` directory and the `test` directory. 
-
----
